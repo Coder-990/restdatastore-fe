@@ -1,5 +1,5 @@
 export interface Company {
   id: number;
-  personalIdentityNumber: string;
-  name: string;
+  oibFirme: string;
+  nazivFirme: string;
 }

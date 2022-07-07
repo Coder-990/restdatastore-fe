@@ -1,5 +1,7 @@
+import {Company} from "./Company";
+
 export interface Shipment {
   id: number;
-  date: Date;
-  companyId: number;
+  datum: Date;
+  izdatnicaFirme: Company;
 }

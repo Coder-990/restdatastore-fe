@@ -1,8 +1,8 @@
 export interface Article {
   id: number;
-  name: string;
-  amount: number;
-  price: number;
-  describe: string;
-  uniteOfMesaure: string;
+  nazivArtikla: string;
+  kolicina: number;
+  cijena: number;
+  opis: string;
+  jmj: string;
 }

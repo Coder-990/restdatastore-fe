@@ -1,1 +1,37 @@
-<p>companies works!</p>
+<div class="container mt-3">
+  <div class="row">
+    <div class="col">
+      <p class="h3 text-black-50 fw-bold">Companies
+        <a class="btn btn-light btn-sm" routerLink="/companies/add">
+          <em class="fa fa-plus"></em> Add</a></p>
+      <p>Test</p>
+      <form>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="row">
+              <div class="col">
+                <input class="form-control btn-sm" placeholder="Search" type="text">
+              </div>
+              <div class="col">
+                <input class="btn btn-dark btn-sm" placeholder="Search Companies" type="submit" value="Go">
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="col-md-1">
+    <a class="btn btn-success my-1" routerLink="/companies/view/:id">
+      <em class="fa fa-eye"></em>
+    </a>
+    <a class="btn btn-warning my-1" routerLink="/companies/edit/:id">
+      <em class="fa fa-pen"></em>
+    </a>
+    <button class="btn btn-danger my-1">
+      <em class="fa fa-trash"></em>
+    </button>
+  </div>
+</div>

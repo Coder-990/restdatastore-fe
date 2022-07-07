@@ -1,6 +1,11 @@
+import {Article} from "./Article";
+import {Receipt} from "./Receipt";
+
 export interface ItemReceipts {
   id: number;
-  receipt: number;
-  article: number;
-  date: Date;
+  stavkaPrimkePrimka: Receipt;
+  stavkaPrimkeRobe: Article;
+  kolicina: number;
+  storno: boolean;
+  datumStorno: Date;
 }

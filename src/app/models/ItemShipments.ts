@@ -1,6 +1,11 @@
+import {Shipment} from "./Shipment";
+import {Article} from "./Article";
+
 export interface ItemShipments {
   id: number;
-  shipment: number;
-  article: number;
-  date: Date;
+  stavkaIzdatniceIzdatnica: Shipment;
+  stavkaIzdatniceRobe: Article;
+  kolicina: number;
+  storno: boolean;
+  datumStorno: Date;
 }
